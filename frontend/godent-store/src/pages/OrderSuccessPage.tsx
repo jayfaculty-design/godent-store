@@ -195,7 +195,7 @@ export default function OrderSuccess() {
                 <div className="flex justify-between items-center">
                   <span className="text-xl font-semibold">Total Amount:</span>
                   <span className="text-3xl font-bold text-blue-600">
-                    ${parseFloat(order.order.total_amount).toFixed(2)}
+                    ${order.order.total_amount.toFixed(2)}
                   </span>
                 </div>
               </div>
